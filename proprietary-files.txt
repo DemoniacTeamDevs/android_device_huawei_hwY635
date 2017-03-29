@@ -1,0 +1,46 @@
+# NFC
+etc/firmware/fused_nvm_c8817d.bin
+etc/firmware/nfc_test.bin
+etc/nfc/hardfault.cfg
+vendor/lib/libqnfc-nci.so
+vendor/lib/libqnfc_nci_jni.so
+vendor/lib/hw/nfc_nci.qc199x.default.so
+
+# Sensors
+lib/hw/sensors.msm8916.so
+
+# Actuator
+vendor/lib/libactuator_s5k5e2_foxconn_hc0806.so
+vendor/lib/libactuator_s5k5e2_foxconn_hc0806_camcorder.so
+vendor/lib/libactuator_s5k5e2_foxconn_hc0806_camera.so
+
+# Chromatix
+vendor/lib/libchromatix_ov2680_byd_bm2920b_common.so
+vendor/lib/libchromatix_ov2680_byd_bm2920b_default_video.so
+vendor/lib/libchromatix_ov2680_byd_bm2920b_preview.so
+vendor/lib/libchromatix_ov2680_byd_bm2920b_snapshot.so
+vendor/lib/libchromatix_s5k5e2_foxconn_hc0806_common.so
+vendor/lib/libchromatix_s5k5e2_foxconn_hc0806_default_video.so
+vendor/lib/libchromatix_s5k5e2_foxconn_hc0806_hfr_60fps.so
+vendor/lib/libchromatix_s5k5e2_foxconn_hc0806_hfr_90fps.so
+vendor/lib/libchromatix_s5k5e2_foxconn_hc0806_hfr_120fps.so
+vendor/lib/libchromatix_s5k5e2_foxconn_hc0806_liveshot.so
+vendor/lib/libchromatix_s5k5e2_foxconn_hc0806_preview.so
+vendor/lib/libchromatix_s5k5e2_foxconn_hc0806_snapshot.so
+vendor/lib/libchromatix_s5k5e2_foxconn_hc0806_video_hd.so
+
+# Chromatix
+vendor/lib/libchromatix_s5k5e2_ofilm_ohw5f02_common.so
+vendor/lib/libchromatix_s5k5e2_ofilm_ohw5f02_default_video.so
+vendor/lib/libchromatix_s5k5e2_ofilm_ohw5f02_hfr_60fps.so
+vendor/lib/libchromatix_s5k5e2_ofilm_ohw5f02_hfr_90fps.so
+vendor/lib/libchromatix_s5k5e2_ofilm_ohw5f02_hfr_120fps.so
+vendor/lib/libchromatix_s5k5e2_ofilm_ohw5f02_liveshot.so
+vendor/lib/libchromatix_s5k5e2_ofilm_ohw5f02_preview.so
+vendor/lib/libchromatix_s5k5e2_ofilm_ohw5f02_snapshot.so
+vendor/lib/libchromatix_s5k5e2_ofilm_ohw5f02_video_hd.so
+
+# Camera
+vendor/lib/libmmcamera_ov2680_byd_bm2920b.so
+vendor/lib/libmmcamera_s5k5e2_foxconn_hc0806.so
+vendor/lib/libmmcamera_s5k5e2_ofilm_ohw5f02.so
