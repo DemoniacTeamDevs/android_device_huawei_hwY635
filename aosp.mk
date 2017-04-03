@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/huawei/hwY635/device.mk)
 
 # Inherit some common AOSP-OMS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 PRODUCT_DEVICE := hwY635
 PRODUCT_NAME := lineage_hwY635
