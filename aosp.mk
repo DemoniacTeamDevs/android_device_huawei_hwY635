@@ -18,8 +18,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/huawei/hwY635/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common AOSP-OMS stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := hwY635
 PRODUCT_NAME := lineage_hwY635
@@ -28,3 +28,7 @@ PRODUCT_MODEL := hwY635
 PRODUCT_MANUFACTURER := HUAWEI
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
+
+#Target ID
+
+TARGET_UNOFFICIAL_BUILD_ID := HB72K
