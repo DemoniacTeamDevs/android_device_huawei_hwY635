@@ -22,7 +22,7 @@ $(call inherit-product, device/huawei/hwY635/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := hwY635
-PRODUCT_NAME := full_hwY635
+PRODUCT_NAME := aosp_hwY635
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := hwY635
 PRODUCT_MANUFACTURER := HUAWEI
